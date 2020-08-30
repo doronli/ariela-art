@@ -1,0 +1,76 @@
+.nav-link{
+    text-align: right;
+}
+
+.header .title-header, .header .sub-title{
+    color: grey;
+    font-size: 70px;
+    text-align: center;
+}
+.header .sub-title{
+    font-size: 20px;
+}
+
+/* first container */
+.carousel-item img,
+.evenning-look-image,
+.half-evening-image,
+.principal-image{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.half-evening-image{
+    height: 217px;
+}
+a.buy-now{
+    border: 2px solid black;
+    border-radius: 96px;
+    padding: 20px;
+    color: gray;
+    display: block;
+    margin: 20px auto 0 auto;
+    font-size: 22px;
+    font-weight: bold;
+}
+a.buy-now:hover{
+    background-color: gray;
+    color: white;
+    border-color: gray;
+}
+a:hover{
+    text-decoration: unset;
+}
+.headdress{
+    height: 230px;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 8px;
+    width: 100%;
+}
+@media screen and (min-width:600px){
+    .header{
+        height: 400px;
+        background-color: #F8F9FA;
+    }
+    #first-container{
+        margin-top: -100px;
+    }
+    #first-container .card{
+        height: 365px;
+    }
+    
+}    
+@media screen and (max-width: 600px){
+    .header .title-header{
+        font-size: 43px;
+        margin-top: 35px;
+    }
+    .mt-mobile-5{
+        margin-top: 2rem;
+    }
+    a.buy-now{
+        font-size: 17px;
+    }
+}
