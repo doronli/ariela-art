@@ -9,17 +9,22 @@
 
 .header .title-header,
 .header .sub-title {
-    color: #52b0d0;
+    color: #f4916d;
     font-size: 70px;
     text-align: center;
 }
-
+.header .title-header{
+    font-weight: 100;
+}
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
 
 .header .sub-title {
     font-size: 20px;
+}
+.nav-tabs .nav-link{
+    color: #f4916d;
 }
 
 /* first container */
@@ -48,8 +53,8 @@ a.buy-now {
     font-weight: bold;
 }
 #big-flower a.buy-now {
-    background: rgb(242, 164, 65);
-    background: linear-gradient(0deg, rgba(242, 164, 65, 1) 0%, rgba(158, 203, 237, 1) 100%);
+    background: rgb(240,205,179);
+    background: linear-gradient(0deg, rgba(240,205,179,1) 5%, rgba(244,145,109,1) 90%);
 }
 
 #big-flower a.buy-now:hover {
@@ -62,6 +67,15 @@ a.buy-now {
 }
 
 #seashell a.buy-now:hover {
+    color: black;
+}
+
+#small-flower a.buy-now {
+    background: rgb(240,205,179);
+    background: linear-gradient(0deg, rgba(240,205,179,1) 5%, rgba(245,150,83,1) 90%);
+}
+
+#small-flower a.buy-now:hover {
     color: black;
 }
 
