@@ -23,6 +23,14 @@
 .header .sub-title {
     font-size: 20px;
 }
+.header .price-description{
+    color: #f4916d;
+    text-align: right;
+    
+}
+.header .price-description span{
+    font-size: 12px;
+}
 .nav-tabs .nav-link{
     color: #f4916d;
 }
@@ -110,6 +118,8 @@ a:hover {
     }
     .header .sub-title {
         font-size: 20px;
+    }
+    .header .price-description:last-child{
         margin-bottom: 35px;
     }
     .nav.nav-tabs{
@@ -139,4 +149,10 @@ a:hover {
         display: none;
     }
 
+    .mb-mobile-5{
+        margin-bottom: 2rem;
+    }
+    .carousel-item img{
+        height: 181px;
+    }
 }
