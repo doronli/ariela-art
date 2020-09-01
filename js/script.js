@@ -69,7 +69,7 @@ $(document).ready(function(){
 
     setTimeout(() =>{
       $("#form").modal();
-    }, 10000);
+    }, 30000);
 
 
   });
